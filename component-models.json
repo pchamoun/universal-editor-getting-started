@@ -35,7 +35,7 @@
       {
         "component": "text",
         "name": "imageAlt",
-        "label": "Alt Text"
+        "label": "Alt Text1"
       }
     ]
   },
@@ -45,12 +45,12 @@
       {
         "component": "text",
         "name": "title",
-        "label": "Title"
+        "label": "Title1"
       },
       {
         "component": "select",
         "name": "titleType",
-        "label": "Title Type",
+        "label": "Title Type1",
         "options": [
           {
             "name": "h1",
@@ -148,7 +148,7 @@
         "component": "reference",
         "valueType": "string",
         "name": "image",
-        "label": "Image",
+        "label": "Image1",
         "multi": false
       },
       {
@@ -196,7 +196,7 @@
         "component": "reference",
         "valueType": "string",
         "name": "image",
-        "label": "Image",
+        "label": "Image2",
         "multi": false
       },
       {
