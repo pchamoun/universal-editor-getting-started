@@ -23,7 +23,7 @@
         {
           "component": "reference",
           "valueType": "string",
-          "name": "image",
+          "name": "image1",
           "label": "Image1",
           "multi": false
         },
@@ -31,7 +31,7 @@
           "component": "text",
           "valueType": "string",
           "name": "imageAlt",
-          "label": "Alt",
+          "label": "Alt1",
           "value": ""
         },
         {
