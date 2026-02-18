@@ -55,6 +55,13 @@
         "component": "text",
         "name": "imageAlt",
         "label": "Alt Text1"
+      },
+      {
+        "component": "checkbox",
+        "name": "use-openapi-delivery",
+        "label": "Use OpenAPI delivery URL",
+        "valueType": "boolean",
+        "value": false
       }
     ]
   },
