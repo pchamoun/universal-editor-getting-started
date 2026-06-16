@@ -222,7 +222,7 @@
         "component": "reference",
         "valueType": "string",
         "name": "image",
-        "label": "Image2",
+        "label": "My Hero Image",
         "multi": false
       },
       {
