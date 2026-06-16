@@ -226,6 +226,13 @@
         "multi": false
       },
       {
+        "component": "richtext",
+        "name": "text",
+        "value": "Pierre Chamoun",
+        "label": "Pierre's Text",
+        "valueType": "string"
+      },
+      {
         "component": "text",
         "valueType": "string",
         "name": "imageAlt",
