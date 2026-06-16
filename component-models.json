@@ -241,7 +241,7 @@
       },
       {
         "component": "richtext",
-        "name": "text",
+        "name": "mytext",
         "value": "",
         "label": "My Hero Text",
         "valueType": "string"
