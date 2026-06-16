@@ -222,7 +222,7 @@
         "component": "reference",
         "valueType": "string",
         "name": "image",
-        "label": "My Hero Image",
+        "label": "My Hero Image1",
         "multi": false
       },
       {
@@ -231,20 +231,6 @@
         "name": "imageAlt",
         "label": "Alt",
         "value": ""
-      },
-      {
-        "component": "richtext",
-        "name": "text",
-        "value": "",
-        "label": "My Hero Text1",
-        "valueType": "string"
-      },
-      {
-        "component": "richtext",
-        "name": "text",
-        "value": "Pierre Chamoun",
-        "label": "Pierre's Text",
-        "valueType": "string"
       }
     ]
   }
