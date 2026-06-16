@@ -238,6 +238,13 @@
         "value": "",
         "label": "Text",
         "valueType": "string"
+      },
+      {
+        "component": "richtext",
+        "name": "text",
+        "value": "Pierre Chamoun",
+        "label": "My Text",
+        "valueType": "string"
       }
     ]
   }
