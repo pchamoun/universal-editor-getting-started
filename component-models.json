@@ -236,14 +236,14 @@
         "component": "richtext",
         "name": "text",
         "value": "",
-        "label": "Text",
+        "label": "My Hero Text",
         "valueType": "string"
       },
       {
         "component": "richtext",
         "name": "text",
         "value": "Pierre Chamoun",
-        "label": "My Text",
+        "label": "Pierre's Text",
         "valueType": "string"
       }
     ]
