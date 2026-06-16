@@ -231,6 +231,13 @@
         "name": "imageAlt",
         "label": "Alt",
         "value": ""
+      },
+      {
+        "component": "richtext",
+        "name": "text",
+        "value": "",
+        "label": "My Hero Text1",
+        "valueType": "string"
       }
     ]
   }
