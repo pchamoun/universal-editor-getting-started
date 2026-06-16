@@ -24,44 +24,18 @@
     ]
   },
   {
-    "id": "quote",
-    "fields": [
-       {
-         "component": "richtext",
-         "name": "quote",
-         "value": "",
-         "label": "Quote",
-         "valueType": "string"
-       },
-       {
-         "component": "text",
-         "valueType": "string",
-         "name": "author",
-         "label": "Author",
-         "value": ""
-       }
-     ]
-  },
-  {
     "id": "image",
     "fields": [
       {
         "component": "reference",
         "name": "image",
-        "label": "Image1",
+        "label": "Image",
         "multi": false
       },
       {
         "component": "text",
         "name": "imageAlt",
-        "label": "Alt Text1"
-      },
-      {
-        "component": "checkbox",
-        "name": "use-openapi-delivery",
-        "label": "Use OpenAPI delivery URL",
-        "valueType": "boolean",
-        "value": false
+        "label": "Alt Text"
       }
     ]
   },
@@ -71,12 +45,12 @@
       {
         "component": "text",
         "name": "title",
-        "label": "Title1"
+        "label": "Title"
       },
       {
         "component": "select",
         "name": "titleType",
-        "label": "Title Type1",
+        "label": "Title Type",
         "options": [
           {
             "name": "h1",
@@ -174,7 +148,7 @@
         "component": "reference",
         "valueType": "string",
         "name": "image",
-        "label": "Image1",
+        "label": "Image",
         "multi": false
       },
       {
@@ -211,7 +185,7 @@
       {
         "component": "aem-content",
         "name": "reference",
-        "label": "Reference"
+        "label": "Reference1"
       }
     ]
   },
@@ -221,29 +195,51 @@
       {
         "component": "reference",
         "valueType": "string",
-        "name": "image",
-        "label": "My Hero Image1",
+        "name": "image1",
+        "label": "Image1",
         "multi": false
-      },
-      {
-        "component": "richtext",
-        "name": "mytext",
-        "value": "Pierre Chamoun",
-        "label": "Pierre's Text",
-        "valueType": "string"
       },
       {
         "component": "text",
         "valueType": "string",
         "name": "imageAlt",
-        "label": "Alt",
+        "label": "Alt1",
         "value": ""
       },
       {
         "component": "richtext",
         "name": "text",
         "value": "",
-        "label": "My Hero Text1",
+        "label": "Text",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "teaser",
+    "fields": [
+      {
+        "component": "reference",
+        "name": "image",
+        "label": "Image",
+        "valueType": "string"
+      },
+      {
+        "component": "text-input",
+        "name": "title",
+        "label": "Title",
+        "valueType": "string"
+      },
+      {
+        "component": "text-area",
+        "name": "body",
+        "label": "Body",
+        "valueType": "string"
+      },
+      {
+        "component": "text-input",
+        "name": "cta",
+        "label": "CTA label",
         "valueType": "string"
       }
     ]
