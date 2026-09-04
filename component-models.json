@@ -24,6 +24,42 @@
     ]
   },
   {
+  "id": "dynamic-media-image",
+  "fields": [
+    {
+      "component": "reference",
+      "name": "image",
+      "label": "Dynamic Media image",
+      "valueType": "string",
+      "multi": false
+    },
+    {
+      "component": "text-input",
+      "name": "alt",
+      "label": "Alt text",
+      "valueType": "string"
+    },
+    {
+      "component": "text-input",
+      "name": "width",
+      "label": "Width",
+      "valueType": "string"
+    },
+    {
+      "component": "text-input",
+      "name": "quality",
+      "label": "Quality",
+      "valueType": "string"
+    },
+    {
+      "component": "text-input",
+      "name": "crop",
+      "label": "Crop",
+      "valueType": "string"
+    }
+  ]
+},
+  {
     "id": "image",
     "fields": [
       {
