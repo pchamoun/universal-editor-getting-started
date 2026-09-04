@@ -1,0 +1,52 @@
+.dynamic-media-image {
+  display: block;
+  width: 100%;
+  margin: 0;
+}
+
+.dynamic-media-image picture {
+  display: block;
+  width: 100%;
+}
+
+.dynamic-media-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+/* Optional full-width presentation */
+.dynamic-media-image.full-width {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+}
+
+.dynamic-media-image.full-width img {
+  width: 100%;
+}
+
+/* Optional cropped presentation */
+.dynamic-media-image.is-cropped {
+  overflow: hidden;
+}
+
+.dynamic-media-image.is-cropped img {
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Responsive behavior */
+@media (min-width: 600px) {
+  .dynamic-media-image {
+    margin-block: 1.5rem;
+  }
+}
+
+@media (max-width: 599px) {
+  .dynamic-media-image {
+    margin-block: 1rem;
+  }
+}
